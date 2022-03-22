@@ -20,9 +20,9 @@ public class Library {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("TicketPU");
 		EntityManager entitymanager = emf.createEntityManager();
 		Person obj = new Person();
-		obj.setPersonName("Ajay Kumar");
-		obj.setPersonEmail("Ajay1345@gmail.com");
-		obj.setPersonPhone(9848022335l);
+		obj.setPersonName("sahithi");
+		obj.setPersonEmail("sahithi@gmail.com");
+		obj.setPersonPhone(0123456789);
 		
 		
 		entitymanager.getTransaction().begin();
