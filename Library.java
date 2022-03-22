@@ -19,10 +19,10 @@ public class Library {
     public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("TicketPU");
 		EntityManager entitymanager = emf.createEntityManager();
-		Person obj = new Person();
-		obj.setPersonName("sahithi");
-		obj.setPersonEmail("sahithi@gmail.com");
-		obj.setPersonPhone(0123456789);
+		Person object = new Person();
+		object.setPersonName("sahithi");
+		object.setPersonEmail("sahithi@gmail.com");
+		object.setPersonPhone(0123456789);
 		
 		
 		entitymanager.getTransaction().begin();
